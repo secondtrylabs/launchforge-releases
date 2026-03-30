@@ -291,6 +291,7 @@ Go to **Settings** > **Import Profiles** to load profiles from a previously expo
 
 ---
 
+## UpdatesLaunchForge automatically checks for updates when you launch the app. If a new version is available, a centered modal appears with two options:- **Install & Restart** — Downloads the new installer, runs it silently, and restarts the app- **Later** — Dismisses the notification for 24 hoursUpdates are downloaded from GitHub Releases. No data is collected or sent — the app only checks the version number.---
 ## Logging
 
 LaunchForge maintains log files for troubleshooting at:
