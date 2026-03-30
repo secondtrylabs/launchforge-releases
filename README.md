@@ -4,7 +4,7 @@
 
 LaunchForge is a Windows desktop application that manages your game sessions by automatically launching supporting applications alongside your games. Whether you need TrackIR running before your flight simulator, voice attack software for space games, or telemetry apps for racing sims, LaunchForge handles the entire launch sequence for you.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/4ada6ddc-539a-4d4b-b2da-e56c3cd5f66e" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/efa9e99f-7b3c-4022-9eed-fee5202d42e9" />
 
 Developed by **SecondTry Labs**
 
@@ -65,7 +65,7 @@ Click **+ Add Game** to open the game selection modal. You can find games throug
 ### Running Apps
 Shows applications currently running on your system. The list updates in real-time every 2 seconds — start an app and it appears automatically.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/97c9bbf7-5b5a-4559-8d49-cd78214fd9ff" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/7b305d24-669d-4b01-a640-d86a852e9351" />
 
 ### Installed Apps
 Scans your Windows Start Menu shortcuts to find installed applications. Every app with a valid executable path is shown with its icon.
@@ -83,7 +83,7 @@ Click **Browse .exe** to manually select any executable file on your system usin
 ### Search
 All tabs include a search bar for quick filtering. Type to instantly filter the list.
 
-<img width="527" height="252" alt="image" src="https://github.com/user-attachments/assets/d7d77319-a86a-4966-b985-8f579a088623" />
+<img width="527" height="252" alt="image" src="https://github.com/user-attachments/assets/cc1595c5-3f63-4587-a786-0b4d2a7d1a7a" />
 
 ---
 
