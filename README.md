@@ -4,6 +4,8 @@
 
 LaunchForge is a Windows desktop application that manages your game sessions by automatically launching supporting applications alongside your games. Whether you need TrackIR running before your flight simulator, voice attack software for space games, or telemetry apps for racing sims, LaunchForge handles the entire launch sequence for you.
 
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/4ada6ddc-539a-4d4b-b2da-e56c3cd5f66e" />
+
 Developed by **SecondTry Labs**
 
 ---
@@ -45,14 +47,14 @@ Developed by **SecondTry Labs**
 
 When you first open LaunchForge, you'll see the empty state with an **+ Add Game** button.
 
-{image placeholder: Empty state screen showing the gamepad icon, "No profiles yet" message, and the purple "+ Add Game" button}
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/8ad9d27c-6e68-4c90-8324-9b64e05367d9" />
 
 The interface is split into three sections:
 - **Sidebar** (left) — Navigation between Games, Settings, and About
 - **Profile List** (center) — Your saved game profiles
 - **Profile Details** (right) — Configuration for the selected game
 
-{image placeholder: Full app with a game selected showing the three-panel layout — sidebar, profile list, and profile details with launch applications}
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/7f1235ad-9c34-44e6-ba99-f6fdf59be7fa" />
 
 ---
 
@@ -63,17 +65,17 @@ Click **+ Add Game** to open the game selection modal. You can find games throug
 ### Running Apps
 Shows applications currently running on your system. The list updates in real-time every 2 seconds — start an app and it appears automatically.
 
-{image placeholder: Game selection modal with "Running" tab active showing running processes with icons}
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/97c9bbf7-5b5a-4559-8d49-cd78214fd9ff" />
 
 ### Installed Apps
 Scans your Windows Start Menu shortcuts to find installed applications. Every app with a valid executable path is shown with its icon.
 
-{image placeholder: Game selection modal with "Installed" tab active showing installed applications}
+<img width="531" height="465" alt="image" src="https://github.com/user-attachments/assets/c428b5bc-fa3d-416f-9bb4-f52b063669b2" />
 
 ### Steam Library
 Automatically detects your Steam installation and lists all installed Steam games. Scans all Steam library folders across multiple drives.
 
-{image placeholder: Game selection modal with "Steam" tab active showing Steam games}
+<img width="525" height="460" alt="image" src="https://github.com/user-attachments/assets/6f3f83ae-c6ec-439e-acca-453bb0b5f7c4" />
 
 ### Browse .exe
 Click **Browse .exe** to manually select any executable file on your system using the Windows file picker.
@@ -81,7 +83,7 @@ Click **Browse .exe** to manually select any executable file on your system usin
 ### Search
 All tabs include a search bar for quick filtering. Type to instantly filter the list.
 
-{image placeholder: Game selection modal with text typed in the search bar and filtered results below}
+<img width="527" height="252" alt="image" src="https://github.com/user-attachments/assets/d7d77319-a86a-4966-b985-8f579a088623" />
 
 ---
 
@@ -91,7 +93,7 @@ Once a game profile is created, you can add applications that should launch alon
 
 Click **+ Add Application** in the profile details panel. The same selection modal appears (Running, Installed, Steam, Browse .exe).
 
-{image placeholder: Profile details showing Launch Applications section with several apps added, showing icons, paths, and control buttons}
+<img width="590" height="748" alt="image" src="https://github.com/user-attachments/assets/0391c261-41d1-4641-8a5a-0c77dde735b1" />
 
 Each launch application displays:
 - **App icon** — extracted automatically, or click to set a custom one
@@ -120,7 +122,7 @@ Some applications need to be running **before** your game starts. For example, T
 
 Click the **fast-forward icon** (>>) on any launch application to enable Launch First mode. The button turns green when active.
 
-{image placeholder: Launch application row showing the fast-forward button highlighted in green}
+<img width="110" height="26" alt="image" src="https://github.com/user-attachments/assets/660e6f7b-9641-46cc-8916-2320b690a652" />
 
 ### How It Works
 
@@ -169,7 +171,7 @@ Without Keep Alive, all launched apps are automatically closed when the game exi
 
 When a profile has at least one Launch First app enabled, a **Create Shortcut** button (with a rocket icon) appears next to the game name in the profile header.
 
-{image placeholder: Profile header showing the game icon, name, and "Create Shortcut" button with rocket icon}
+<img width="110" height="26" alt="image" src="https://github.com/user-attachments/assets/faa2eef0-5533-437c-a0a0-eb9c99fcef72" />
 
 Clicking it creates a `.lnk` shortcut on your desktop with the game's icon. You can:
 - **Double-click** it to launch the entire profile
@@ -191,7 +193,7 @@ You can copy launch applications between game profiles by dragging them.
 3. The target profile highlights in purple when ready to receive
 4. Drop to copy the app with all its settings
 
-{image placeholder: Dragging a launch application from the details panel toward a game profile in the list, showing the purple highlight on the target profile}
+<img width="500" height="203" alt="image" src="https://github.com/user-attachments/assets/26196654-e4ac-472d-8377-a263fd069d78" />
 
 **Details:**
 - The app is **copied**, not moved — the original stays in the source profile
@@ -207,7 +209,7 @@ You can copy launch applications between game profiles by dragging them.
 
 Click the game icon in the profile details header to replace it. A hover overlay appears with an image icon. The file picker opens to the game's executable directory.
 
-{image placeholder: Hovering over the game icon showing the overlay with the image-plus icon}
+<img width="245" height="83" alt="image" src="https://github.com/user-attachments/assets/c0e965e4-81d9-492a-8c29-ac121e6598ab" />
 
 ### App Icons
 
@@ -225,7 +227,7 @@ Custom icons are stored as embedded data in your profile, so they survive export
 
 Click the **power icon** on any game profile in the left panel. The profile dims and LaunchForge ignores it — no apps will launch when that game starts.
 
-{image placeholder: Profile list showing one profile with the red power-off icon and dimmed appearance}
+<img width="329" height="62" alt="image" src="https://github.com/user-attachments/assets/578a386e-b8cb-455b-a910-1079a901fb72" />
 
 Click again to re-enable.
 
@@ -233,13 +235,13 @@ Click again to re-enable.
 
 Click **Disable All** in the profile list header to globally pause all monitoring. The button turns red when active.
 
-{image placeholder: Profile list header showing "All Disabled" button in red with power-off icon}
+<img width="339" height="410" alt="image" src="https://github.com/user-attachments/assets/385b7f14-fe8e-4baa-b096-6924f8b5870f" />
 
 ### Disable Individual Apps
 
 Click the **power icon** on any launch application within a profile. That specific app won't launch, but other apps in the profile still will. The row dims to indicate it's disabled.
 
-{image placeholder: Launch application row showing the power button in red with the row dimmed}
+<img width="573" height="108" alt="image" src="https://github.com/user-attachments/assets/d6443ece-09da-4c1f-bfc1-11a0e0453d4a" />
 
 ---
 
@@ -247,7 +249,7 @@ Click the **power icon** on any launch application within a profile. That specif
 
 Access settings from the **Settings** item in the sidebar.
 
-{image placeholder: Settings page showing all three toggles and the import/export buttons}
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/b2f2c072-9fad-425e-bf18-a07d6e75ea96" />
 
 ### Start LaunchForge when Windows starts
 
@@ -263,7 +265,7 @@ LaunchForge starts in the background instead of showing the window. Combine with
 
 When enabled, clicking the minimize button (or the X button) sends LaunchForge to the system tray (notification area) instead of closing or minimizing to the taskbar.
 
-{image placeholder: System tray showing the LaunchForge icon}
+<img width="35" height="32" alt="image" src="https://github.com/user-attachments/assets/c229f52e-3a70-4419-8a3f-b0e74cc2f355" />
 
 Right-click the tray icon for options:
 - **Open LaunchForge** — Show the main window
