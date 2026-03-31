@@ -4,7 +4,7 @@
 
 LaunchForge is a Windows desktop application that manages your game sessions by automatically launching supporting applications alongside your games. Whether you need TrackIR running before your flight simulator, voice attack software for space games, or telemetry apps for racing sims, LaunchForge handles the entire launch sequence for you.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/efa9e99f-7b3c-4022-9eed-fee5202d42e9" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/743c620f-9278-4d7a-9798-75108b3d2c29" />
 
 Developed by **SecondTry Labs**
 
@@ -54,7 +54,7 @@ The interface is split into three sections:
 - **Profile List** (center) — Your saved game profiles
 - **Profile Details** (right) — Configuration for the selected game
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/7f1235ad-9c34-44e6-ba99-f6fdf59be7fa" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/a506a824-b8f6-4534-94fc-2b390010f4fd" />
 
 ---
 
@@ -122,7 +122,7 @@ Some applications need to be running **before** your game starts. For example, T
 
 Click the **fast-forward icon** (>>) on any launch application to enable Launch First mode. The button turns green when active.
 
-<img width="110" height="26" alt="image" src="https://github.com/user-attachments/assets/660e6f7b-9641-46cc-8916-2320b690a652" />
+<img width="138" height="26" alt="image" src="https://github.com/user-attachments/assets/a208ad50-64b2-42f0-a5c4-152f00b9ec72" />
 
 ### How It Works
 
@@ -151,11 +151,35 @@ Launch First apps are automatically sorted to the top of the list, followed by r
 
 ---
 
+## Close Only Mode
+
+Some applications are started automatically by the game itself (e.g., Navigraph Simlink). You don't need LaunchForge to launch them, but you want them cleaned up when the game exits.
+
+Click the **log-out icon** on any launch application to enable Close Only mode. The button turns green when active.
+
+<img width="138" height="26" alt="image" src="https://github.com/user-attachments/assets/ea068af5-e3a7-44e2-865f-6853e4cb4745" />
+
+### How It Works
+
+1. When the game launches, LaunchForge **skips** this app (it does not launch it)
+2. The game or another process starts the app on its own
+3. When the game exits, LaunchForge **kills** the app by its executable name
+
+> **Note:** Close Only works by matching the executable name in the running process list. If the app isn't running when the game exits, nothing happens — no errors.
+
+### When to Use Close Only
+
+- Apps that are launched by the game itself (plugins, overlays, telemetry agents)
+- Background services that the game starts but doesn't stop
+- Apps you want cleaned up automatically but don't want LaunchForge to start
+
+---
+
 ## Keep Alive (CTD Protection)
 
-Click the **pin icon** on any launch application to enable Keep Alive. The button turns orange when active.
+Click the **pin icon** on any launch application to enable Keep Alive. The button turns green when active.
 
-{image placeholder: Launch application row showing the pin button highlighted in orange}
+<img width="138" height="26" alt="image" src="https://github.com/user-attachments/assets/a5bc6760-e48e-45da-931a-02934b0ab063" />
 
 When Keep Alive is enabled, LaunchForge will **not** close that application when your game exits. This is useful for:
 
@@ -171,7 +195,7 @@ Without Keep Alive, all launched apps are automatically closed when the game exi
 
 When a profile has at least one Launch First app enabled, a **Create Shortcut** button (with a rocket icon) appears next to the game name in the profile header.
 
-<img width="110" height="26" alt="image" src="https://github.com/user-attachments/assets/faa2eef0-5533-437c-a0a0-eb9c99fcef72" />
+<img width="131" height="36" alt="image" src="https://github.com/user-attachments/assets/58fe1b9c-0eb2-42d8-80c9-1e32ca8b7c82" />
 
 Clicking it creates a `.lnk` shortcut on your desktop with the game's icon. You can:
 - **Double-click** it to launch the entire profile
@@ -249,7 +273,7 @@ Click the **power icon** on any launch application within a profile. That specif
 
 Access settings from the **Settings** item in the sidebar.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/b2f2c072-9fad-425e-bf18-a07d6e75ea96" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/93bc70bf-a1bf-406a-9124-101ae724a726" />
 
 ### Start LaunchForge when Windows starts
 
@@ -312,6 +336,7 @@ LaunchForge maintains log files for troubleshooting at:
 ```
 %APPDATA%\LaunchForge\logs\
 ```
+You can quickly access this folder from **Settings > Open Logs**.
 
 | Log File | Contents |
 |----------|----------|
