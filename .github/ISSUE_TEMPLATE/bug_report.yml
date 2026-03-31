@@ -71,12 +71,11 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Log Output
+      label: Log Files
       description: |
-        Paste relevant log entries from Settings > Open Logs.
-        Check `launch.log` for launch/kill issues, `errors.log` for errors.
-      render: text
-      placeholder: Paste log entries here...
+        Go to Settings > Open Logs, then drag your log files into this box, or paste relevant entries.
+        Check launch.log for launch/kill issues, errors.log for errors.
+      placeholder: Drag log files here or paste log entries...
 
   - type: textarea
     id: additional
