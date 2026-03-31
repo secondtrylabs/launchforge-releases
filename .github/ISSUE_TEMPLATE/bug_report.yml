@@ -1,0 +1,85 @@
+name: Bug Report
+description: Report a bug or issue with LaunchForge
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below to help us investigate.
+
+  - type: input
+    id: version
+    attributes:
+      label: LaunchForge Version
+      description: Found in About page (e.g., v1.0.14)
+      placeholder: v1.0.14
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows Version
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+
+  - type: input
+    id: game
+    attributes:
+      label: Game Profile Affected
+      description: Which game were you using when this happened?
+      placeholder: e.g., X-Plane 12, MSFS 2024, iRacing
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. What did you expect vs what actually happened?
+      placeholder: |
+        Expected: Apps should launch in order and stay running
+        Actual: autoortho was killed immediately after launching
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open LaunchForge
+        2. Click the X-Plane shortcut on taskbar
+        3. Watch autoortho get killed after 2 seconds
+    validations:
+      required: true
+
+  - type: dropdown
+    id: launch-method
+    attributes:
+      label: How did you launch the game?
+      options:
+        - Desktop shortcut (LaunchForge)
+        - Started game manually (auto-detect)
+        - Both / Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Output
+      description: |
+        Paste relevant log entries from Settings > Open Logs.
+        Check `launch.log` for launch/kill issues, `errors.log` for errors.
+      render: text
+      placeholder: Paste log entries here...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Anything else that might help? Screenshots, configuration details, etc.
