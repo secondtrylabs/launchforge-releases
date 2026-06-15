@@ -77,7 +77,7 @@ Scans your Windows Start Menu shortcuts to find installed applications. Every ap
 ### Steam Library
 Automatically detects your Steam installation and lists all installed Steam games. Scans all Steam library folders across multiple drives.
 
-<img width="525" height="460" alt="image" src="https://github.com/user-attachments/assets/6f3f83ae-c6ec-439e-acca-453bb0b5f7c4" />
+<img width="512" height="453" alt="image" src="https://github.com/user-attachments/assets/b3958741-3d82-492e-ab47-81fc6d9755a0" />
 
 ### Browse .exe
 Click **Browse .exe** to manually select any executable file on your system using the Windows file picker.
