@@ -286,7 +286,7 @@ You can copy launch applications between game profiles by dragging them.
 
 Click the game icon in the profile details header to replace it. A hover overlay appears with an image icon. The file picker opens to the game's executable directory.
 
-<img width="245" height="83" alt="image" src="https://github.com/user-attachments/assets/c0e965e4-81d9-492a-8c29-ac121e6598ab" />
+<img width="335" height="100" alt="image" src="https://github.com/user-attachments/assets/da451f62-6f27-45e5-b34f-45a12a9241c0" />
 
 ### App Icons
 
@@ -304,7 +304,7 @@ Custom icons are stored as embedded data in your profile, so they survive export
 
 Click the **power icon** on any game profile in the left panel. The profile dims and LaunchForge ignores it — no apps will launch when that game starts.
 
-<img width="329" height="62" alt="image" src="https://github.com/user-attachments/assets/578a386e-b8cb-455b-a910-1079a901fb72" />
+<img width="324" height="58" alt="image" src="https://github.com/user-attachments/assets/373ecd13-ba41-4921-ad01-4f26254f9956" />
 
 Click again to re-enable.
 
@@ -312,13 +312,13 @@ Click again to re-enable.
 
 Click **Disable All** in the profile list header to globally pause all monitoring. The button turns red when active.
 
-<img width="339" height="410" alt="image" src="https://github.com/user-attachments/assets/385b7f14-fe8e-4baa-b096-6924f8b5870f" />
+<img width="332" height="518" alt="image" src="https://github.com/user-attachments/assets/d484570e-e406-4477-8b82-0bf3bcc97647" />
 
 ### Disable Individual Apps
 
 Click the **power icon** on any launch application within a profile. That specific app won't launch, but other apps in the profile still will. The row dims to indicate it's disabled.
 
-<img width="573" height="108" alt="image" src="https://github.com/user-attachments/assets/d6443ece-09da-4c1f-bfc1-11a0e0453d4a" />
+<img width="568" height="104" alt="image" src="https://github.com/user-attachments/assets/6d7aa943-b878-4519-92bf-1c29a3770d36" />
 
 ---
 
@@ -326,7 +326,7 @@ Click the **power icon** on any launch application within a profile. That specif
 
 Access settings from the **Settings** item in the sidebar.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/93bc70bf-a1bf-406a-9124-101ae724a726" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/00510e57-095c-4fe9-8262-ed3e5849d45b" />
 
 ### Use Dark Mode
 
