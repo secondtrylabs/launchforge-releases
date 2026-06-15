@@ -4,7 +4,7 @@
 
 LaunchForge is a Windows desktop application that manages your game sessions by automatically launching supporting applications alongside your games. Whether you need TrackIR running before your flight simulator, voice attack software for space games, or telemetry apps for racing sims, LaunchForge handles the entire launch sequence for you.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/743c620f-9278-4d7a-9798-75108b3d2c29" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/2a567921-457c-45bf-be78-d21b5af4faf5" />
 
 Developed by **SecondTry Labs**
 
@@ -49,7 +49,7 @@ Developed by **SecondTry Labs**
 
 When you first open LaunchForge, you'll see the empty state with an **+ Add Game** button.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/8ad9d27c-6e68-4c90-8324-9b64e05367d9" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/93907129-8bba-4e5f-9925-63db0b9d5ed8" />
 
 The interface is split into three sections:
 - **Sidebar** (left) — Navigation between Games, Settings, and About
