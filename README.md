@@ -56,7 +56,7 @@ The interface is split into three sections:
 - **Profile List** (center) — Your saved game profiles
 - **Profile Details** (right) — Configuration for the selected game
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/a506a824-b8f6-4534-94fc-2b390010f4fd" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/2a567921-457c-45bf-be78-d21b5af4faf5" />
 
 ---
 
