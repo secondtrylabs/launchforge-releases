@@ -18,6 +18,7 @@ Developed by **SecondTry Labs**
 - [Managing Launch Applications](#managing-launch-applications)
 - [Launch First Mode](#launch-first-mode)
 - [Keep Alive (CTD Protection)](#keep-alive-ctd-protection)
+- [Restart After Game](#restart-after-game)
 - [Desktop Launch Shortcuts](#desktop-launch-shortcuts)
 - [Drag and Drop](#drag-and-drop)
 - [Custom Icons](#custom-icons)
@@ -188,6 +189,25 @@ When Keep Alive is enabled, LaunchForge will **not** close that application when
 - **Background services** — Apps that should persist regardless of game state
 
 Without Keep Alive, all launched apps are automatically closed when the game exits.
+
+---
+
+## Restart After Game
+
+Click the **refresh icon** on any launch application to enable Restart After Game. The button turns green when active.
+
+When Restart After Game is enabled, LaunchForge handles that app in the opposite direction from normal:
+
+- **Closes** any running instance of the app **before** the game launches (graceful close first, force kill after 5 seconds if it doesn't exit cleanly)
+- **Re-spawns** the app automatically when the game exits
+
+Useful for apps you want running normally but **not** during gameplay — and that you want back without having to launch them manually afterward:
+
+- **Apps that conflict with VR** — e.g. OpenRGB grabbing input devices DCS needs when going into VR mode
+- **Resource-heavy utilities** that should pause while you're playing and resume after
+- **Anything you keep running between sessions** but want set aside during the game
+
+> Restart After Game takes precedence over Launch First, Close Only, and Keep Alive. If you enable multiple modes on the same app, the app is closed pre-launch and respawned post-exit — the other toggles don't apply.
 
 ---
 
