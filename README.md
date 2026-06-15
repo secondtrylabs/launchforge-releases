@@ -15,6 +15,7 @@ Developed by **SecondTry Labs**
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Adding a Game](#adding-a-game)
+- [Editing a Profile](#editing-a-profile)
 - [Managing Launch Applications](#managing-launch-applications)
 - [Launch First Mode](#launch-first-mode)
 - [Keep Alive (CTD Protection)](#keep-alive-ctd-protection)
@@ -85,6 +86,36 @@ Click **Browse .exe** to manually select any executable file on your system usin
 All tabs include a search bar for quick filtering. Type to instantly filter the list.
 
 <img width="527" height="252" alt="image" src="https://github.com/user-attachments/assets/cc1595c5-3f63-4587-a786-0b4d2a7d1a7a" />
+
+---
+
+## Editing a Profile
+
+Once a profile is created you can rename it, swap its executable, and set optional launch arguments — all from the profile detail panel.
+
+### Rename a Profile
+
+Click the **pencil icon** next to the profile title to edit. Type a new name and press **Enter** (or click away) to save. **Escape** cancels.
+
+The profile list re-sorts alphabetically after a rename. Useful for creating variants of the same game — e.g. duplicate-then-rename to `DCS (VR)` so you can set VR-specific launch arguments without losing your standard DCS profile.
+
+### Change the Game
+
+Click the **pencil icon** next to **GAME EXECUTABLE** to open the game picker (same one used for Add Game — Running / Installed / Steam / Enter Path / Browse .exe). Picking a new game updates the profile's path and icon, **without** changing the profile name, launch applications, launch arguments, or any other settings.
+
+If you'd previously hand-picked a custom icon, it's preserved. If the icon was auto-extracted from the original exe, it refreshes to the new exe's icon.
+
+### Game Launch Arguments
+
+The **LAUNCH ARGUMENTS** field (between Game Executable and Created) lets you pass command-line flags to the game when LaunchForge starts it. Useful for things like `--force_VR`, `-windowed`, `-novid`, etc.
+
+> **Important:** Setting launch arguments changes how the profile is launched. When the field is non-empty:
+> - The profile is removed from the **auto-detect watcher** — LaunchForge no longer monitors for the game starting externally
+> - A **Create Shortcut** button appears next to the profile name — the game must be launched from this shortcut for the arguments to be applied
+>
+> This is because arguments can only be passed when LaunchForge spawns the game itself. If you launch the game directly (Start Menu, Steam, etc.), the arguments are bypassed.
+
+Clear the field to restore normal auto-detect behavior.
 
 ---
 
@@ -295,6 +326,10 @@ Access settings from the **Settings** item in the sidebar.
 
 <img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/93bc70bf-a1bf-406a-9124-101ae724a726" />
 
+### Use Dark Mode
+
+Toggle between the default **light theme** and a **dark theme** for the app's UI. The change applies instantly; no restart needed.
+
 ### Start LaunchForge when Windows starts
 
 Adds LaunchForge to your Windows startup. The app launches automatically when you log in.
@@ -366,6 +401,8 @@ You can quickly access this folder from **Settings > Open Logs**.
 | `errors.log` | All errors from every category |
 
 Logs automatically rotate when they exceed 2MB (previous log renamed to `.old.log`).
+> Log files older than **14 days** are deleted automatically when LaunchForge starts.
+
 
 ---
 
