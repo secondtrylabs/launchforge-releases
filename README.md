@@ -67,12 +67,12 @@ Click **+ Add Game** to open the game selection modal. You can find games throug
 ### Running Apps
 Shows applications currently running on your system. The list updates in real-time every 2 seconds — start an app and it appears automatically.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/7b305d24-669d-4b01-a640-d86a852e9351" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/92764c39-51c1-432a-8780-0b7878513b75" />
 
 ### Installed Apps
 Scans your Windows Start Menu shortcuts to find installed applications. Every app with a valid executable path is shown with its icon.
 
-<img width="531" height="465" alt="image" src="https://github.com/user-attachments/assets/c428b5bc-fa3d-416f-9bb4-f52b063669b2" />
+<img width="512" height="453" alt="image" src="https://github.com/user-attachments/assets/43727df7-96f0-4491-b5d0-0518ba6a1e76" />
 
 ### Steam Library
 Automatically detects your Steam installation and lists all installed Steam games. Scans all Steam library folders across multiple drives.
@@ -85,7 +85,7 @@ Click **Browse .exe** to manually select any executable file on your system usin
 ### Search
 All tabs include a search bar for quick filtering. Type to instantly filter the list.
 
-<img width="527" height="252" alt="image" src="https://github.com/user-attachments/assets/cc1595c5-3f63-4587-a786-0b4d2a7d1a7a" />
+<img width="512" height="237" alt="image" src="https://github.com/user-attachments/assets/e89b0537-b513-444c-ad7d-9ae6d6cb4059" />
 
 ---
 
@@ -125,7 +125,7 @@ Once a game profile is created, you can add applications that should launch alon
 
 Click **+ Add Application** in the profile details panel. The same selection modal appears (Running, Installed, Steam, Browse .exe).
 
-<img width="590" height="748" alt="image" src="https://github.com/user-attachments/assets/0391c261-41d1-4641-8a5a-0c77dde735b1" />
+<img width="580" height="747" alt="image" src="https://github.com/user-attachments/assets/9f2a33c8-96da-4460-b5d9-0e5ac370b647" />
 
 Each launch application displays:
 - **App icon** — extracted automatically, or click to set a custom one
@@ -154,7 +154,7 @@ Some applications need to be running **before** your game starts. For example, T
 
 Click the **fast-forward icon** (>>) on any launch application to enable Launch First mode. The button turns green when active.
 
-<img width="138" height="26" alt="image" src="https://github.com/user-attachments/assets/a208ad50-64b2-42f0-a5c4-152f00b9ec72" />
+<img width="166" height="26" alt="image" src="https://github.com/user-attachments/assets/e50f6cda-8890-4b47-865e-92621c82febc" />
 
 ### How It Works
 
@@ -189,7 +189,7 @@ Some applications are started automatically by the game itself (e.g., Navigraph 
 
 Click the **log-out icon** on any launch application to enable Close Only mode. The button turns green when active.
 
-<img width="138" height="26" alt="image" src="https://github.com/user-attachments/assets/ea068af5-e3a7-44e2-865f-6853e4cb4745" />
+<img width="166" height="26" alt="image" src="https://github.com/user-attachments/assets/c77e800d-2da3-48f4-a541-8f24b3baee64" />
 
 ### How It Works
 
@@ -211,7 +211,7 @@ Click the **log-out icon** on any launch application to enable Close Only mode. 
 
 Click the **pin icon** on any launch application to enable Keep Alive. The button turns green when active.
 
-<img width="138" height="26" alt="image" src="https://github.com/user-attachments/assets/a5bc6760-e48e-45da-931a-02934b0ab063" />
+<img width="166" height="26" alt="image" src="https://github.com/user-attachments/assets/5191cd27-8f84-4655-9ded-7a286ee1ee8a" />
 
 When Keep Alive is enabled, LaunchForge will **not** close that application when your game exits. This is useful for:
 
@@ -226,6 +226,8 @@ Without Keep Alive, all launched apps are automatically closed when the game exi
 ## Restart After Game
 
 Click the **refresh icon** on any launch application to enable Restart After Game. The button turns green when active.
+
+<img width="166" height="26" alt="image" src="https://github.com/user-attachments/assets/ce33ed25-e763-4686-993e-71098f121dd5" />
 
 When Restart After Game is enabled, LaunchForge handles that app in the opposite direction from normal:
 
@@ -246,7 +248,7 @@ Useful for apps you want running normally but **not** during gameplay — and th
 
 When a profile has at least one Launch First app enabled, a **Create Shortcut** button (with a rocket icon) appears next to the game name in the profile header.
 
-<img width="131" height="36" alt="image" src="https://github.com/user-attachments/assets/58fe1b9c-0eb2-42d8-80c9-1e32ca8b7c82" />
+<img width="129" height="34" alt="image" src="https://github.com/user-attachments/assets/7fe40324-4c35-4f78-955b-aea9a7b160ad" />
 
 Clicking it creates a `.lnk` shortcut on your desktop with the game's icon. You can:
 - **Double-click** it to launch the entire profile
@@ -268,7 +270,7 @@ You can copy launch applications between game profiles by dragging them.
 3. The target profile highlights in purple when ready to receive
 4. Drop to copy the app with all its settings
 
-<img width="500" height="203" alt="image" src="https://github.com/user-attachments/assets/26196654-e4ac-472d-8377-a263fd069d78" />
+<img width="663" height="130" alt="image" src="https://github.com/user-attachments/assets/00746b58-b4ac-4d90-8f47-02ed96be6c78" />
 
 **Details:**
 - The app is **copied**, not moved — the original stays in the source profile
