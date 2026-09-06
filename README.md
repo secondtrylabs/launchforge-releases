@@ -4,7 +4,7 @@
 
 LaunchForge is a Windows desktop application that manages your game sessions by automatically launching supporting applications alongside your games. Whether you need TrackIR running before your flight simulator, voice attack software for space games, or telemetry apps for racing sims, LaunchForge handles the entire launch sequence for you.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/2a567921-457c-45bf-be78-d21b5af4faf5" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/40276cbe-eec2-4b6f-8dd6-daa08469049f" />
 
 Developed by **SecondTry Labs**
 
@@ -49,14 +49,14 @@ Developed by **SecondTry Labs**
 
 When you first open LaunchForge, you'll see the empty state with an **+ Add Game** button.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/93907129-8bba-4e5f-9925-63db0b9d5ed8" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/e72698e1-03bd-4b5c-869e-7064df37dd9d" />
 
 The interface is split into three sections:
 - **Sidebar** (left) — Navigation between Games, Settings, and About
 - **Profile List** (center) — Your saved game profiles
 - **Profile Details** (right) — Configuration for the selected game
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/2a567921-457c-45bf-be78-d21b5af4faf5" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/94c0c7d0-8737-4778-a608-9c048090c679" />
 
 ---
 
@@ -67,7 +67,7 @@ Click **+ Add Game** to open the game selection modal. You can find games throug
 ### Running Apps
 Shows applications currently running on your system. The list updates in real-time every 2 seconds — start an app and it appears automatically.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/92764c39-51c1-432a-8780-0b7878513b75" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/0834198e-7fd9-44f4-8dd7-2e74ebe46516" />
 
 ### Installed Apps
 Scans your Windows Start Menu shortcuts to find installed applications. Every app with a valid executable path is shown with its icon.
@@ -326,7 +326,7 @@ Click the **power icon** on any launch application within a profile. That specif
 
 Access settings from the **Settings** item in the sidebar.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/00510e57-095c-4fe9-8262-ed3e5849d45b" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/dda1d86a-6fea-4867-9799-67fcc580ccbf" />
 
 ### Use Dark Mode
 
@@ -346,7 +346,7 @@ LaunchForge starts in the background instead of showing the window. Combine with
 
 When enabled, clicking the minimize button (or the X button) sends LaunchForge to the system tray (notification area) instead of closing or minimizing to the taskbar.
 
-<img width="35" height="32" alt="image" src="https://github.com/user-attachments/assets/c229f52e-3a70-4419-8a3f-b0e74cc2f355" />
+<img width="28" height="26" alt="image" src="https://github.com/user-attachments/assets/9094f27e-a5ec-4cd4-ba0a-badb65e79d20" />
 
 Right-click the tray icon for options:
 - **Open LaunchForge** — Show the main window
